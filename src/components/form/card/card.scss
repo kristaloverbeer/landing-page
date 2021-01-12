@@ -1,0 +1,33 @@
+.Card {
+    padding: 0.25em;
+    margin: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.Card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #aeb3bd;
+}
+
+.Card svg {
+    color: #aeb3bd;
+}
+
+.Card:hover {
+    transform: translateY(0.2em);
+    color: black;
+}
+
+.Card:hover h3 {
+    color: black;
+}
+
+.Card:hover svg {
+    color: black;
+}
